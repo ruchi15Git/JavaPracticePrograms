@@ -11,7 +11,9 @@ public class LargestOfThreeNumbers {
         int a=input.nextInt();
         int b=input.nextInt();
         int c=input.nextInt();
-        String result=a>b?"A is the largest":b>c?"B is the largest":"C is the largest";
-        System.out.println(result);
+        /*String result=a>b?"A is the largest":b>c?"B is the largest":"C is the largest";
+        System.out.println(result);*/
+        int res=(a>b)?a:(b>c)?b:c;
+        System.out.println(res);
     }
 }
