@@ -1,3 +1,5 @@
+package Programs;
+
 public class FindGreatestNumberAmongThreeNum {
     public static void main(String[] args){
         int a=1000, b=20, c=180;

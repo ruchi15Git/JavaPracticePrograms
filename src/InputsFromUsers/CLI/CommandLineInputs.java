@@ -1,4 +1,4 @@
-package InputsFromUsers;
+package InputsFromUsers.CLI;
 
 public class CommandLineInputs {
     public static void main(String[] args){

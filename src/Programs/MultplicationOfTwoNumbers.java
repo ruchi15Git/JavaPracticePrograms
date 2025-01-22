@@ -1,3 +1,5 @@
+package Programs;
+
 public class MultplicationOfTwoNumbers {
     public static void main(String[] args){
         int num1=20, num2=8, result=0;

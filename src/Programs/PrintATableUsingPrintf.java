@@ -1,3 +1,5 @@
+package Programs;
+
 public class PrintATableUsingPrintf {
     public static void main(String[] args){
         int num=9;
