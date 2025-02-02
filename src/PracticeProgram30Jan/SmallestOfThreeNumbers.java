@@ -9,12 +9,14 @@ public class SmallestOfThreeNumbers {
         int num1=scanner.nextInt();
         int num2=scanner.nextInt();
         int num3=scanner.nextInt();
-        if(num1<num2 && num1<num3){
-            System.out.println(num1+" is smallest");
-        } else if (num2<num3 && num2<num1) {
-            System.out.println(num2+" is smallest");
-        } else if (num3<num1 && num3<num2) {
-            System.out.println(num3+" is smallest");
+
+        int smallestNum=num1;
+        if(num2<smallestNum){
+           smallestNum=num2;
         }
+        if(num3<smallestNum){
+            smallestNum=num3;
+        }
+        System.out.println("The smallest number is: "+smallestNum);
     }
 }
