@@ -27,6 +27,9 @@ public class MainClass {
             case SATURDAY:{ System.out.println(SATURDAY.getDay());
                 break;
             }
+            case SUNDAY:{ System.out.println(SUNDAY.getDay());
+                break;
+            }
             default:{
                 System.out.println("not a valid day");
             }
