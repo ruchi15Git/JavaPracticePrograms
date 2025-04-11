@@ -8,5 +8,6 @@ public class EnumExample {
        Day d=Day.FRIDAY;
        System.out.println(d);
        System.out.println(Day.MONDAY);
+       System.out.println(Day.SATURDAY);
     }
 }
