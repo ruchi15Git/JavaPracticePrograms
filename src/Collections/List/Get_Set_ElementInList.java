@@ -22,7 +22,7 @@ public class Get_Set_ElementInList {
 System.out.println("--------------------------");
         //2. Using for each loop
         for(Object itrList:list){
-            System.out.println(itrList);
+            System.out.println(itrList);//
         }
     }
 }
