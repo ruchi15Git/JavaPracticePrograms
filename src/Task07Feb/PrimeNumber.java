@@ -1,7 +1,7 @@
 package Task07Feb;
 
 import java.util.Scanner;
-import java.util.SequencedCollection;
+
 
 public class PrimeNumber {
     public static void main(String[] args){
